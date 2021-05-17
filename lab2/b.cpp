@@ -1,0 +1,11 @@
+#include <iostream>
+
+int main(){
+    int a;
+    std::cin >> a;
+    if (a % 4 != 0) std::cout << "NO";
+    else if (a % 400 == 0) std::cout << "YES";
+    else if (a % 100 == 0) std::cout << "NO";
+    else std::cout << "YES";
+    return 0;
+}
