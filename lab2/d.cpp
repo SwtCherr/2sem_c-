@@ -6,6 +6,6 @@ int main(){
     i = 1;
     while (i < n) i = i * 2;
     if (i == n) std::cout << "YES" << std::endl;
-    else std::cout << "NO" << syd::endl;
+    else std::cout << "NO" << std::endl;
     return 0;
 }
